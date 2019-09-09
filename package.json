@@ -1,0 +1,17 @@
+{
+  "name": "realtime-editor",
+  "version": "1.0.0",
+  "description": "Realtime editor that enables collaboration between multiples users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Juan David Orozco",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
