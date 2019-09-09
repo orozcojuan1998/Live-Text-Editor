@@ -2,8 +2,7 @@ const log = console.log
 // initialize http server, socket.io and port number
 const http = require('http').createServer()
 const io = require('socket.io')(http)
-const port = 3000
-http.listen(port, () => log(`server listening on port: ${port}`))
+http.listen('localhost', () =>)
 io.on('connection', (socket) => {
     log('connected')
     socket.on('message', (evt) => {
